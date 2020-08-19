@@ -14,9 +14,11 @@ class Header extends React.Component {
 
   componentDidMount() {
     window.addEventListener('scroll', this.parallaxShift);
-  }componentWillUnmount() {
+  }
+  componentWillUnmount() {
     window.removeEventListener('scroll', this.parallaxShift);
-  }parallaxShift = () => {
+  }
+  parallaxShift = () => {
     this.setState({
       offset: window.pageYOffset
     });
