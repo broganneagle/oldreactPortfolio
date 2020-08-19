@@ -10,7 +10,7 @@ class Header extends React.Component {
         offset: 0
       };
     }
-  }
+  
 
   componentDidMount() {
     window.addEventListener('scroll', this.parallaxShift);
@@ -23,6 +23,8 @@ class Header extends React.Component {
       offset: window.pageYOffset
     });
   };
+render (){
+
 
 return (
     <header 
@@ -38,3 +40,6 @@ return (
       </section>
     </header>
   )
+}
+}
+export default Header;

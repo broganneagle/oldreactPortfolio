@@ -6,45 +6,45 @@ import MyForm from "../../components/myForm.js";
 
 
 function Contact() {
-  return (
-    <div className="contact-container">
+    return (
+        <div className="contact-container">
 
-      <div id="contact-wrapper">
-        <Row>
+            <div id="contact-wrapper">
+                <Row>
 
-          <Row className="contact-title jumbotron-4 justify-content-center">
-          <Col></Col>
-          <Col xs={6} className = "title-wrapper">
-            <Row className="justify-content-center">
-            <h1 className="display-4">Contact</h1>
-            </Row>
-          </Col>
-          <Col></Col>
-          </Row>
+                    <Row className="contact-title jumbotron-4 justify-content-center">
+                        <Col></Col>
+                        <Col xs={6} className="title-wrapper">
+                            <Row className="justify-content-center">
+                                <h1 className="display-4">Contact</h1>
+                            </Row>
+                        </Col>
+                        <Col></Col>
+                    </Row>
 
-          <Row className="contact-wrapper">
-            <Col></Col>
-            <Col xs={6} className="form-wrapper">
-         
-              <Row className = "justify-content-center">
-              <MyForm />
-              </Row>
-            </Col>
-            <Col></Col>
-          </Row>
-        </Row>
-        <Row className="about-Nav" >
-          <Col></Col>
-          <Col xs={3} className="justify-content-center">
-            <NavTabs />
-          </Col>
-          <Col></Col>
-        </Row>
+                    <Row className="contact-wrapper">
+                        <Col></Col>
+                        <Col xs={6} className="form-wrapper">
 
-      </div>
-    </div >
+                            <Row className="justify-content-center">
+                                <MyForm />
+                            </Row>
+                        </Col>
+                        <Col></Col>
+                    </Row>
+                </Row>
+                <Row className="about-Nav" >
+                    <Col></Col>
+                    <Col xs={3} className="justify-content-center">
+                        <NavTabs />
+                    </Col>
+                    <Col></Col>
+                </Row>
 
-  );
+            </div>
+        </div >
+
+    );
 }
 
 export default Contact;

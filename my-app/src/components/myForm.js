@@ -12,25 +12,25 @@ export default class MyForm extends React.Component {
   render() {
     const { status } = this.state;
     return (
-      
+
       <form
         onSubmit={this.submitForm}
         action="https://formspree.io/mzbgjddk" method="POST">
-        
-      
+
+
         <div className="form-group">
-        <label htmlFor="name">Name</label>
-        <input type="text" name="name" className="form-control" />
-    </div>
-    <div className="form-group">
-        <label htmlFor="exampleInputEmail1">Email address</label>
-        <input type="email" name= "email" className="form-control" aria-describedby="emailHelp" />
-    </div>
-    <div className="form-group">
-        <label htmlFor="message">Message</label>
-        <textarea type="text" name = "message" className="form-control" rows="5"></textarea>
-    </div>
-  
+          <label htmlFor="name">Name</label>
+          <input type="text" name="name" className="form-control" />
+        </div>
+        <div className="form-group">
+          <label htmlFor="exampleInputEmail1">Email address</label>
+          <input type="email" name="email" className="form-control" aria-describedby="emailHelp" />
+        </div>
+        <div className="form-group">
+          <label htmlFor="message">Message</label>
+          <textarea type="text" name="message" className="form-control" rows="5"></textarea>
+        </div>
+
 
         {status === "SUCCESS" ? <p>Thank You!</p> : <button>Submit</button>}
         {status === "ERROR" && <p>Error</p>}
