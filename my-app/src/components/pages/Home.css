@@ -1,0 +1,313 @@
+body, html {
+    height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+}
+
+
+h1, h2, h3 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+ .form-wrapper button{
+    background:  #b2c5e7;
+    border-radius: 15px;
+  }
+  .home-container{
+    margin: 0 auto;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    margin: 0 auto;
+    height: 100vh; 
+  }
+
+  .contact-container{
+    margin: 0 auto;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    height: 100vh; 
+    background-attachment: fixed;
+  }
+  
+  .contact-wrapper{
+    width: 100%;
+  }
+
+  .form-wrapper{
+    background:white;
+    margin-bottom: 100px;
+    padding-bottom: 20px;
+  }
+
+  .contact-title{
+    width:100%;
+    margin: 0;
+    color: #777777;
+  }
+
+  .title-wrapper{
+    width: 50%;
+    background: white;
+    margin-top: 100px;
+  }
+
+  .nav{
+    border-bottom: none;
+    background: none;
+    color: white;
+  }
+
+  .nav-wrapper{
+    background-color: grey;
+    border-radius: 15px;
+  }
+  
+
+  .icon-row i{
+    color: white;
+  }
+
+  .icon-row{
+    width: fit-content;
+    margin-bottom: 50px;
+  }
+
+    .header-wrapper{
+      border-bottom: 1px solid #777777;
+      scroll-margin-bottom: 0px;
+    }
+  
+    #header{
+      display: flex;
+      align-content: space-between;
+    }
+  
+    #name{
+      display: flex;
+      justify-content: center;
+      background: blue;
+      width: 200px;
+      color: #ffffff;
+   }
+
+   .about-text{
+     margin-bottom: 150px;
+   }
+  
+    #aboutme-wrapper{
+      color: #777777;
+      width: 100%;
+      
+    }
+  
+    .aboutme-wrapper2{
+      background:transparent;
+       margin-top: 50px; 
+    }
+  
+    .my-img{
+      border-radius: 50%;
+      margin-top: 50px;
+      margin-bottom: 50px;
+    }
+   
+    .photo-row{
+      width:100%;
+    }
+    
+    .subtitle{
+      color: white;
+    }
+  
+    .about-title{
+      width:100%;
+      margin: 0;
+      color: #777777;
+    }
+    .about-Nav{
+      width:100%;
+    }
+
+    .aboutme-box p{
+      margin-left: 100px;
+      
+    }
+  
+    .aboutme-box img{
+     float: left;
+      border-radius: 50%;
+    }
+     
+  
+    .aboutme-box em{
+      font-weight: bold;
+      margin-top: 100px;
+    }
+  
+  
+    #about-text{
+      margin-left: 50px;
+      color:#777777;
+    }
+
+    .nav{
+      justify-content: center;;
+    }
+  
+    .content{ 
+      min-height: 100vh;  
+    } 
+  
+    .content-port{
+      min-height: 100vh;
+    }
+  
+    .name-title{
+      padding: 400px 0px 0px 0px;
+      color: white;
+    }
+  
+    .head-title{
+      padding: 50px 0px 0px 100px;
+      background: white;
+    }
+  
+    .navbarNav {
+        display: flex;
+        align-content: space-between;
+    }
+  
+   .port-content{
+    min-height: 100vh; 
+   }
+  
+    
+    .form-group{
+      width: 920px;
+      padding: 10px;
+    }
+  
+    button[type=submit] {
+      background-color:blue;
+      color: #ffffff;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+      margin-left: 20px;
+    }
+   
+  
+    .footer{
+      color: #ffffff;
+       margin-top: 300px; 
+         bottom: 0;
+        width: 100%;
+        position: relative;
+        height: height-footer;
+      }
+  
+      .footer2{
+        color:#777777 ;
+         margin-top: 50px; 
+           bottom: 0;
+          width: 100%;
+          position: relative;
+          height: height-footer;
+        }
+  
+      
+    
+     .my-img img{
+        border-radius: 50%;
+      }
+     
+  .about-Nav .nav-link a{
+    color: blue;
+  }
+
+  .nav .about-Nav .nav a:link {
+      color:white;;
+      text-decoration: none;
+    }
+    
+   .about-Nav a:visited {
+      color:#777777;
+      text-decoration: none;
+    }
+    
+    .about-Nav a:hover {
+      color:  blue;
+      text-decoration: none;
+    }
+    
+   .about-Nav a:active {
+      color:blue;
+      text-decoration: none;
+    }
+    
+    
+    .nav a:link {
+      color: black;
+      text-decoration: none;
+    }
+    
+   .nav  a:visited {
+      color: #777777;
+      text-decoration: none;
+    }
+    
+  .nav  a:hover {
+      color:  blue;
+      text-decoration: none;
+    }
+    
+    .nav a:active {
+      color:  blue;
+      text-decoration: none;
+    }
+    
+    p{
+      color:#777777;
+    }
+
+    .carousel-item.active{
+      width: 1500px;
+    height: 700px;
+    align-content: center;
+    border: 1px solid #777777;
+    display: flex;
+    } 
+
+    .carousel-item.active i{
+      margin-right: 20px;
+    } 
+    
+    .carousel-caption{
+      background-color: rgba(255,255,255,0.9);
+      color: black;
+      margin-left: 20px;
+      margin-bottom: 20px;
+
+    }
+    
+    .carousel.slide{
+        margin-left: 260px;
+        margin-bottom: 50px;
+        margin-top: 30px;
+}
+    
+    .carousel-caption i, p, h3, h4, h5, h6{
+      color: black;
+    }
+    .carousel-inner{
+      height: 700px;
+    }
+    
+    .Carousel{
+      margin-bottom: 30px;
+    }
+
+    .port-Nav{
+      margin-left: 125px;
+    }
+    
