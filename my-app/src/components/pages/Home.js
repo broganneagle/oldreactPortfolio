@@ -1,7 +1,7 @@
 import React from "react";
-import Roll from 'react-reveal/Roll';
-import Slide from 'react-reveal/Slide';
-import NavTabs from "../../components/NavTabs";
+import {Roll} from 'react-reveal';
+import {Slide} from 'react-reveal';
+// import NavTabs from "../../components/NavTabs";
 import "../../components/pages/Home.css";
 
 import { Col, Row } from "react-bootstrap";
@@ -20,7 +20,7 @@ function Home() {
 
                             <div className="row name-title jumbotron-4 justify-content-center">
                                 <Roll left>
-                                    <h1 className="display-3">Julie Gran</h1>
+                                    <h1 className="display-3">Brogan Neagle</h1>
                                 </Roll>
                             </div>
 
@@ -36,7 +36,7 @@ function Home() {
                             </Row>
                             <div className="row justify-content-center about-Nav" >
                                 <Slide left>
-                                    <NavTabs />
+                                    {/* <NavTabs /> */}
                                 </Slide>
                             </div>
 

@@ -1,5 +1,5 @@
 import React from "react";
-import NavTabs from "../../components/NavTabs";
+// import NavTabs from "../../components/NavTabs";
 import "../pages/Home.css";
 import { Col, Row } from "react-bootstrap";
 import MyForm from "../../components/myForm.js";
@@ -36,7 +36,7 @@ function Contact() {
                 <Row className="about-Nav" >
                     <Col></Col>
                     <Col xs={3} className="justify-content-center">
-                        <NavTabs />
+                        {/* <NavTabs /> */}
                     </Col>
                     <Col></Col>
                 </Row>

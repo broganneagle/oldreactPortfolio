@@ -1,5 +1,5 @@
 import React from "react";
-import NavTabs from "../../components/NavTabs";
+// import NavTabs from "../../components/NavTabs";
 import "../../components/pages/Home.css";
 
 class Header extends React.Component {

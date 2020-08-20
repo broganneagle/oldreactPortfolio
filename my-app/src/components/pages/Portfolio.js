@@ -1,8 +1,8 @@
 import React from "react";
-import NavTabs from "../../components/NavTabs";
+// import NavTabs from "../../components/NavTabs";
 import "../pages/Home.css";
 import { Col, Row } from "react-bootstrap";
-import Carousel from 'react-bootstrap/Carousel'
+import {Carousel} from 'react-bootstrap';
 import "bootstrap/dist/css/bootstrap.css";
 import "react-bootstrap-carousel/dist/react-bootstrap-carousel.css";
 
@@ -82,7 +82,7 @@ function Portfolio() {
                     <Row className="about-Nav port-Nav" >
                         <Col></Col>
                         <Col xs={3} className="justify-content-center">
-                            <NavTabs />
+                            {/* <NavTabs /> */}
                         </Col>
                         <Col></Col>
                     </Row>
